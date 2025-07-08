@@ -15,6 +15,17 @@ const namesStartingWith = (array, letter) => {
   return result
 }
 
+//bonus
+
+// function namesStartingWith(array, letter) {
+//   for (i=0; i<array.length; i++) {
+//     let firstLetter = array[i].slice(0,1);
+//     if (firstLetter === letter) {
+//       result.push(array[i])
+//     }
+//   }
+//   return result
+// }
 
 // Invoca la funzione qui e stampa il risultato in console
 
@@ -22,3 +33,4 @@ let namesStartingWithA = namesStartingWith(names, `A`)
 console.log(namesStartingWithA)
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+

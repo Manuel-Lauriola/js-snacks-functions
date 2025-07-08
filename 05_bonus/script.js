@@ -24,6 +24,17 @@ const greetings = (user) => {
     else {return `Buonasera ${user}`}
 }
 
+//bonus
+
+// function greetings (user) {
+//   if (hour < 13) {
+//     return `Buongiorno ${user}`
+//   }
+//     else if (hour < 17) {
+//       return `Buon pomeriggio ${user}`
+//     }
+//     else {return `Buonasera ${user}`}
+// }
 
 // Invoca la funzione qui e stampa il risultato in console
 

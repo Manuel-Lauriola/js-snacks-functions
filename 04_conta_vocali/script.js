@@ -19,6 +19,18 @@ vocalsIn = (text) => {
   return vocalsCount
 }
 
+//bonus
+
+// function vocalsIn (text) {
+//   array = text.split("");
+//   for (i=0; i<array.length; i++) {
+//     if ( vocals.indexOf(array[i]) !== -1) {
+//       vocalsCount.push(array[i])
+//     }
+//   }
+//   return vocalsCount
+// }
+
 // Invoca la funzione qui e stampa il risultato in console
 
 let vocalsCountWord = vocalsIn (word)
