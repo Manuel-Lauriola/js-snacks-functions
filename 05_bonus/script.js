@@ -14,9 +14,20 @@ console.log(hour)
 
 // Dichiara la funzione qui.
 
+const greetings = (user) => {
+  if (hour < 13) {
+    return `Buongiorno ${user}`
+  }
+    else if (hour < 17) {
+      return `Buon pomeriggio ${user}`
+    }
+    else {return `Buonasera ${user}`}
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+const greetingsName = greetings(name)
+console.log(greetingsName)
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
